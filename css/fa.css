@@ -5,3 +5,66 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+/* header tags */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+.title{
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(36, 32, 32);
+
+}
+
+/* banner related style */
+
+.banner-content {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.primary{
+    border-radius: 2px;
+    background: #FF900E;
+    color: rgb(248, 249, 250);
+    justify-content: center;
+    padding: 15px 15px;
+}
